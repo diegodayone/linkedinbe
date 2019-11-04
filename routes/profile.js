@@ -1,6 +1,5 @@
 const express = require("express")
 const User = require("../models/user")
-const config = require("../config")
 const MulterAzureStorage = require("multer-azure-storage")
 const multer = require("multer")
 const dotenv = require('dotenv');

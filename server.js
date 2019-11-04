@@ -2,7 +2,6 @@ const express = require("express")
 const mongoose = require("mongoose")
 const passport = require("passport")
 
-const config = require("./config")
 const auth = require("./routes/auth")
 const profile = require("./routes/profile")
 const posts = require("./routes/post")
